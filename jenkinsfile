@@ -9,7 +9,7 @@ pipeline {
         }
         stage('git') {
             steps {
-                bat 'gitPython.py'
+                echo "git"
             }
         }
     }
